@@ -11,3 +11,7 @@ Only `.gitmodules`, the exact workflow gitlink, and this reconciliation pair are
 
 ## Verification and limits
 Validate seven frontmatters/resources, TOML and project paths, shared ancestry, metadata-only divergence, routing links, and the child/index/committed pin. Verify a local recovery bundle. The parent checkpoint alone is not a complete portable documentation scaffold until the existing root guidance is reviewed and committed by its owning workstream. Security/privacy review, publication, fresh recursive retrieval and client behavior remain separate; nothing is uploaded or deployed.
+
+## Shared rollout follow-up
+Reconciled shared main `8f6bdcf` locally, preserving this project's adaptation. The follow-up clarifies separately authorized list migration, incomplete parent scaffolds, and private local recovery. Publication remains on hold; the public source URL does not make this new child pin available remotely.
+The bounded legacy-register check found no remaining pinned-issues or future-ideas list in this project's documentation; existing individual notes and deferred work were preserved.
