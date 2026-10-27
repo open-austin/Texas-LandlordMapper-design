@@ -11,3 +11,6 @@ The source still needs to be refreshed from the intended Penpot file. Archive ex
 
 ## Validation and publication
 Verify the existing archive with a preview and no-change execution, then confirm hashes of all fourteen existing design artifacts remain unchanged. Run synthetic tests in Agent Hands and review selected changes before commits. Publish the reusable tool only after its prior outgoing history and exact workflow dependency are available, then publish this project integration and verify remote retrieval. Fresh-client MCP behavior and design human QA remain separate.
+
+## Verification outcome
+The reusable command and this integration are published. Fresh anonymous recursive clones retrieved both repositories and their exact workflow pins; the published command with the published manifest reports 97 tokens and six unchanged outputs. A separate fresh-directory export reproduced all six token JSON files byte-for-byte. All fourteen existing design artifacts retain their original hashes. The implementation's eighteen fixture tests pass, and GitHub reported no checks for either implementation commit. Privacy/security review preceded the commits; no credential stores or live Penpot content were inspected.
