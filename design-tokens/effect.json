@@ -1,0 +1,62 @@
+{
+  "shadow": {
+    "sm": {
+      "$value": [
+        {
+          "offsetX": "0",
+          "offsetY": "1",
+          "blur": "2",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.05)",
+          "inset": false
+        }
+      ],
+      "$type": "shadow",
+      "$description": ""
+    },
+    "md": {
+      "$value": [
+        {
+          "offsetX": "0",
+          "offsetY": "4",
+          "blur": "6",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.1)",
+          "inset": false
+        },
+        {
+          "offsetX": "0",
+          "offsetY": "2",
+          "blur": "4",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.1)",
+          "inset": false
+        }
+      ],
+      "$type": "shadow",
+      "$description": "Penpot shadow tokens cannot have negative spread, so this uses 0; the frontend's version is slightly tighter. Frontend: spread -1px and -2px."
+    },
+    "lg": {
+      "$value": [
+        {
+          "offsetX": "0",
+          "offsetY": "10",
+          "blur": "15",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.1)",
+          "inset": false
+        },
+        {
+          "offsetX": "0",
+          "offsetY": "4",
+          "blur": "6",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.1)",
+          "inset": false
+        }
+      ],
+      "$type": "shadow",
+      "$description": "Penpot shadow tokens cannot have negative spread, so this uses 0; the frontend's version is slightly tighter. Frontend: spread -3px and -4px."
+    }
+  }
+}

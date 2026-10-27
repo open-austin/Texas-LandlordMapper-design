@@ -1,0 +1,459 @@
+{
+  "font": {
+    "family": {
+      "sans": {
+        "$value": [
+          "Inter"
+        ],
+        "$type": "fontFamilies",
+        "$description": "Declared by the frontend but not loaded, so visitors currently see their system font."
+      }
+    },
+    "weight": {
+      "normal": {
+        "$value": "400",
+        "$type": "fontWeights",
+        "$description": ""
+      },
+      "medium": {
+        "$value": "500",
+        "$type": "fontWeights",
+        "$description": ""
+      },
+      "semibold": {
+        "$value": "600",
+        "$type": "fontWeights",
+        "$description": ""
+      },
+      "bold": {
+        "$value": "700",
+        "$type": "fontWeights",
+        "$description": ""
+      },
+      "extrabold": {
+        "$value": "800",
+        "$type": "fontWeights",
+        "$description": ""
+      }
+    },
+    "size": {
+      "xs": {
+        "$value": "12",
+        "$type": "fontSizes",
+        "$description": ""
+      },
+      "3xl": {
+        "$value": "30",
+        "$type": "fontSizes",
+        "$description": ""
+      },
+      "4xl": {
+        "$value": "36",
+        "$type": "fontSizes",
+        "$description": ""
+      },
+      "2xl": {
+        "$value": "24",
+        "$type": "fontSizes",
+        "$description": ""
+      },
+      "base": {
+        "$value": "16",
+        "$type": "fontSizes",
+        "$description": ""
+      },
+      "lg": {
+        "$value": "18",
+        "$type": "fontSizes",
+        "$description": ""
+      },
+      "xl": {
+        "$value": "20",
+        "$type": "fontSizes",
+        "$description": ""
+      },
+      "5xl": {
+        "$value": "48",
+        "$type": "fontSizes",
+        "$description": ""
+      },
+      "sm": {
+        "$value": "14",
+        "$type": "fontSizes",
+        "$description": ""
+      }
+    },
+    "line-height": {
+      "xs": {
+        "$value": "1.333",
+        "$type": "number",
+        "$description": ""
+      },
+      "3xl": {
+        "$value": "1.2",
+        "$type": "number",
+        "$description": ""
+      },
+      "4xl": {
+        "$value": "1.111",
+        "$type": "number",
+        "$description": ""
+      },
+      "relaxed": {
+        "$value": "1.625",
+        "$type": "number",
+        "$description": ""
+      },
+      "2xl": {
+        "$value": "1.333",
+        "$type": "number",
+        "$description": ""
+      },
+      "base": {
+        "$value": "1.5",
+        "$type": "number",
+        "$description": ""
+      },
+      "lg": {
+        "$value": "1.556",
+        "$type": "number",
+        "$description": ""
+      },
+      "xl": {
+        "$value": "1.4",
+        "$type": "number",
+        "$description": ""
+      },
+      "5xl": {
+        "$value": "1",
+        "$type": "number",
+        "$description": ""
+      },
+      "sm": {
+        "$value": "1.429",
+        "$type": "number",
+        "$description": ""
+      }
+    }
+  },
+  "letter-spacing": {
+    "wide-sm": {
+      "$value": "0.35",
+      "$type": "letterSpacing",
+      "$description": "0.025em at 14px text."
+    },
+    "wider-2xl": {
+      "$value": "1.2",
+      "$type": "letterSpacing",
+      "$description": "0.05em at 24px text; 1.0 at 20px."
+    }
+  },
+  "type": {
+    "heading": {
+      "1": {
+        "$value": {
+          "fontFamilies": [
+            "{font.family.sans}"
+          ],
+          "fontSizes": "{font.size.4xl}",
+          "fontWeights": "{font.weight.extrabold}",
+          "letterSpacing": "0",
+          "lineHeights": "{font.line-height.4xl}",
+          "textCase": "none",
+          "textDecoration": "none"
+        },
+        "$type": "typography",
+        "$description": "Page titles on Contact and Data Sources. color.gray.900; font.size.3xl below sm."
+      },
+      "2": {
+        "$value": {
+          "fontFamilies": [
+            "{font.family.sans}"
+          ],
+          "fontSizes": "{font.size.3xl}",
+          "fontWeights": "{font.weight.bold}",
+          "letterSpacing": "0",
+          "lineHeights": "{font.line-height.3xl}",
+          "textCase": "none",
+          "textDecoration": "none"
+        },
+        "$type": "typography",
+        "$description": "Property address on the result page (font.size.2xl below sm). The About page title also uses this size and weight, in color.blue.800."
+      },
+      "3": {
+        "$value": {
+          "fontFamilies": [
+            "{font.family.sans}"
+          ],
+          "fontSizes": "{font.size.2xl}",
+          "fontWeights": "{font.weight.bold}",
+          "letterSpacing": "0",
+          "lineHeights": "{font.line-height.2xl}",
+          "textCase": "none",
+          "textDecoration": "none"
+        },
+        "$type": "typography",
+        "$description": "\"Our Technology\" on Data Sources and the error page title. color.gray.900."
+      },
+      "4": {
+        "$value": {
+          "fontFamilies": [
+            "{font.family.sans}"
+          ],
+          "fontSizes": "{font.size.xl}",
+          "fontWeights": "{font.weight.bold}",
+          "letterSpacing": "0",
+          "lineHeights": "{font.line-height.xl}",
+          "textCase": "none",
+          "textDecoration": "none"
+        },
+        "$type": "typography",
+        "$description": "Data Sources card titles and \"Get in touch\" on Contact. About's \"Our Mission\" is semibold in color.blue.700."
+      },
+      "5": {
+        "$value": {
+          "fontFamilies": [
+            "{font.family.sans}"
+          ],
+          "fontSizes": "{font.size.lg}",
+          "fontWeights": "{font.weight.semibold}",
+          "letterSpacing": "0",
+          "lineHeights": "{font.line-height.lg}",
+          "textCase": "none",
+          "textDecoration": "none"
+        },
+        "$type": "typography",
+        "$description": "Result section titles, including Organizing Potential. color.gray.800, or color.white on the blue Organizing Potential header."
+      }
+    },
+    "body": {
+      "$value": {
+        "fontFamilies": [
+          "{font.family.sans}"
+        ],
+        "fontSizes": "{font.size.base}",
+        "fontWeights": "{font.weight.normal}",
+        "letterSpacing": "0",
+        "lineHeights": "{font.line-height.base}",
+        "textCase": "none",
+        "textDecoration": "none"
+      },
+      "$type": "typography",
+      "$description": "Default text, including the search input."
+    },
+    "brand": {
+      "$value": {
+        "fontFamilies": [
+          "{font.family.sans}"
+        ],
+        "fontSizes": "{font.size.2xl}",
+        "fontWeights": "{font.weight.extrabold}",
+        "letterSpacing": "{letter-spacing.wider-2xl}",
+        "lineHeights": "{font.line-height.2xl}",
+        "textCase": "none",
+        "textDecoration": "none"
+      },
+      "$type": "typography",
+      "$description": "The Landlord Mapper wordmark in the header. color.blue.700; font.size.xl below the lg breakpoint."
+    },
+    "label": {
+      "detail": {
+        "$value": {
+          "fontFamilies": [
+            "{font.family.sans}"
+          ],
+          "fontSizes": "{font.size.sm}",
+          "fontWeights": "{font.weight.semibold}",
+          "letterSpacing": "{letter-spacing.wide-sm}",
+          "lineHeights": "{font.line-height.sm}",
+          "textCase": "uppercase",
+          "textDecoration": "none"
+        },
+        "$type": "typography",
+        "$description": "Labels in result detail rows. color.gray.500."
+      },
+      "score": {
+        "$value": {
+          "fontFamilies": [
+            "{font.family.sans}"
+          ],
+          "fontSizes": "{font.size.sm}",
+          "fontWeights": "{font.weight.semibold}",
+          "letterSpacing": "{letter-spacing.wide-sm}",
+          "lineHeights": "{font.line-height.sm}",
+          "textCase": "uppercase",
+          "textDecoration": "none"
+        },
+        "$type": "typography",
+        "$description": "The \"Organizing Viability\" label. color.blue.600."
+      },
+      "stat": {
+        "$value": {
+          "fontFamilies": [
+            "{font.family.sans}"
+          ],
+          "fontSizes": "{font.size.xs}",
+          "fontWeights": "{font.weight.semibold}",
+          "letterSpacing": "0",
+          "lineHeights": "{font.line-height.xs}",
+          "textCase": "uppercase",
+          "textDecoration": "none"
+        },
+        "$type": "typography",
+        "$description": "The \"Existing Leads\" label under the lead count. color.blue.600."
+      },
+      "form": {
+        "$value": {
+          "fontFamilies": [
+            "{font.family.sans}"
+          ],
+          "fontSizes": "{font.size.sm}",
+          "fontWeights": "{font.weight.semibold}",
+          "letterSpacing": "0",
+          "lineHeights": "{font.line-height.sm}",
+          "textCase": "none",
+          "textDecoration": "none"
+        },
+        "$type": "typography",
+        "$description": "Contact form field labels. color.gray.700."
+      }
+    },
+    "lead": {
+      "$value": {
+        "fontFamilies": [
+          "{font.family.sans}"
+        ],
+        "fontSizes": "{font.size.lg}",
+        "fontWeights": "{font.weight.normal}",
+        "letterSpacing": "0",
+        "lineHeights": "{font.line-height.lg}",
+        "textCase": "none",
+        "textDecoration": "none"
+      },
+      "$type": "typography",
+      "$description": "Introductory paragraphs: the home subtitle and page intros. color.gray.500; the About intro uses font.line-height.relaxed in color.gray.700."
+    },
+    "value": {
+      "detail": {
+        "$value": {
+          "fontFamilies": [
+            "{font.family.sans}"
+          ],
+          "fontSizes": "{font.size.lg}",
+          "fontWeights": "{font.weight.medium}",
+          "letterSpacing": "0",
+          "lineHeights": "{font.line-height.lg}",
+          "textCase": "none",
+          "textDecoration": "none"
+        },
+        "$type": "typography",
+        "$description": "Values in result detail rows. color.gray.900."
+      },
+      "score": {
+        "$value": {
+          "fontFamilies": [
+            "{font.family.sans}"
+          ],
+          "fontSizes": "{font.size.lg}",
+          "fontWeights": "{font.weight.bold}",
+          "letterSpacing": "0",
+          "lineHeights": "{font.line-height.lg}",
+          "textCase": "none",
+          "textDecoration": "none"
+        },
+        "$type": "typography",
+        "$description": "The organizing viability score and its status text. color.blue.700 for the score, color.gray.900 for the status."
+      },
+      "stat": {
+        "$value": {
+          "fontFamilies": [
+            "{font.family.sans}"
+          ],
+          "fontSizes": "{font.size.2xl}",
+          "fontWeights": "{font.weight.bold}",
+          "letterSpacing": "0",
+          "lineHeights": "{font.line-height.2xl}",
+          "textCase": "none",
+          "textDecoration": "none"
+        },
+        "$type": "typography",
+        "$description": "The lead count in Organizing Potential. color.blue.700."
+      }
+    },
+    "action": {
+      "$value": {
+        "fontFamilies": [
+          "{font.family.sans}"
+        ],
+        "fontSizes": "{font.size.base}",
+        "fontWeights": "{font.weight.semibold}",
+        "letterSpacing": "0",
+        "lineHeights": "{font.line-height.base}",
+        "textCase": "none",
+        "textDecoration": "none"
+      },
+      "$type": "typography",
+      "$description": "Primary button labels such as Search. color.white."
+    },
+    "nav": {
+      "$value": {
+        "fontFamilies": [
+          "{font.family.sans}"
+        ],
+        "fontSizes": "{font.size.base}",
+        "fontWeights": "{font.weight.medium}",
+        "letterSpacing": "0",
+        "lineHeights": "{font.line-height.base}",
+        "textCase": "none",
+        "textDecoration": "none"
+      },
+      "$type": "typography",
+      "$description": "Header navigation, Back to Search and the \"Report an error\" link."
+    },
+    "display": {
+      "$value": {
+        "fontFamilies": [
+          "{font.family.sans}"
+        ],
+        "fontSizes": "{font.size.5xl}",
+        "fontWeights": "{font.weight.extrabold}",
+        "letterSpacing": "0",
+        "lineHeights": "{font.line-height.5xl}",
+        "textCase": "none",
+        "textDecoration": "none"
+      },
+      "$type": "typography",
+      "$description": "Home headline. color.gray.900; font.size.4xl below the sm breakpoint."
+    },
+    "fine-print": {
+      "$value": {
+        "fontFamilies": [
+          "{font.family.sans}"
+        ],
+        "fontSizes": "{font.size.xs}",
+        "fontWeights": "{font.weight.normal}",
+        "letterSpacing": "0",
+        "lineHeights": "{font.line-height.xs}",
+        "textCase": "none",
+        "textDecoration": "none"
+      },
+      "$type": "typography",
+      "$description": "The Contact page footnote."
+    },
+    "caption": {
+      "$value": {
+        "fontFamilies": [
+          "{font.family.sans}"
+        ],
+        "fontSizes": "{font.size.sm}",
+        "fontWeights": "{font.weight.normal}",
+        "letterSpacing": "0",
+        "lineHeights": "{font.line-height.sm}",
+        "textCase": "none",
+        "textDecoration": "none"
+      },
+      "$type": "typography",
+      "$description": "Footer text and data-source notes. color.gray.500."
+    }
+  }
+}

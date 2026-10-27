@@ -15,3 +15,12 @@ Validate seven frontmatters/resources, TOML and project paths, shared ancestry, 
 ## Shared rollout follow-up
 Reconciled shared main `8f6bdcf` locally, preserving this project's adaptation. The follow-up clarifies separately authorized list migration, incomplete parent scaffolds, and private local recovery. Publication remains on hold; the public source URL does not make this new child pin available remotely.
 The bounded legacy-register check found no remaining pinned-issues or future-ideas list in this project's documentation; existing individual notes and deferred work were preserved.
+
+## Design snapshot cleanup review
+The earlier workflow-only checkpoints deliberately excluded the root guidance and design snapshot. The separate design checkpoint now preserves those existing files, including their provenance and human-QA status. The native export, seven PNG exports and six design-token JSON files are unchanged.
+
+Before the cleanup commits, the selected text and the two existing outgoing parent commits were reviewed, along with the native archive's JSON, metadata and eight embedded PNGs. All seven exported PNGs were inspected visually. No credentials, personal machine paths, private interview material or real tenant/owner records were found in the reviewed content. Credential stores were not read. This is a bounded review of the proposed publication, not a guarantee about all repository history or the live Penpot file.
+
+All token JSON files parse. The four palettes and empty theme list match the native archive; the active-set metadata contains the same four sets in a different order. Archive integrity checks pass, and image dimensions match README. No application build or automated project test suite exists here; visual fidelity to a running frontend and human design acceptance remain unverified.
+
+GitHub currently has neither the configured `project/texas-landlordmapper-design` branch nor the exact child revision recorded by the parent. Shared main being published does not satisfy that dependency. Parent publication is held until that child revision is available at the recorded remote; fresh recursive retrieval and client discovery remain pending.

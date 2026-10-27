@@ -1,0 +1,126 @@
+{
+  "radius": {
+    "default": {
+      "$value": "4",
+      "$type": "borderRadius",
+      "$description": ""
+    },
+    "md": {
+      "$value": "6",
+      "$type": "borderRadius",
+      "$description": ""
+    },
+    "lg": {
+      "$value": "8",
+      "$type": "borderRadius",
+      "$description": ""
+    },
+    "xl": {
+      "$value": "12",
+      "$type": "borderRadius",
+      "$description": ""
+    },
+    "2xl": {
+      "$value": "16",
+      "$type": "borderRadius",
+      "$description": ""
+    }
+  },
+  "border": {
+    "width": {
+      "2": {
+        "$value": "2",
+        "$type": "borderWidth",
+        "$description": ""
+      },
+      "default": {
+        "$value": "1",
+        "$type": "borderWidth",
+        "$description": ""
+      }
+    }
+  },
+  "space": {
+    "1": {
+      "$value": "4",
+      "$type": "spacing",
+      "$description": "A step in the spacing scale the current markup uses; not a layout rule."
+    },
+    "2": {
+      "$value": "8",
+      "$type": "spacing",
+      "$description": "A step in the spacing scale the current markup uses; not a layout rule."
+    },
+    "3": {
+      "$value": "12",
+      "$type": "spacing",
+      "$description": "A step in the spacing scale the current markup uses; not a layout rule."
+    },
+    "4": {
+      "$value": "16",
+      "$type": "spacing",
+      "$description": "A step in the spacing scale the current markup uses; not a layout rule."
+    },
+    "6": {
+      "$value": "24",
+      "$type": "spacing",
+      "$description": "A step in the spacing scale the current markup uses; not a layout rule."
+    },
+    "8": {
+      "$value": "32",
+      "$type": "spacing",
+      "$description": "A step in the spacing scale the current markup uses; not a layout rule."
+    },
+    "10": {
+      "$value": "40",
+      "$type": "spacing",
+      "$description": "A step in the spacing scale the current markup uses; not a layout rule."
+    },
+    "12": {
+      "$value": "48",
+      "$type": "spacing",
+      "$description": "A step in the spacing scale the current markup uses; not a layout rule."
+    },
+    "16": {
+      "$value": "64",
+      "$type": "spacing",
+      "$description": "A step in the spacing scale the current markup uses; not a layout rule."
+    },
+    "0-5": {
+      "$value": "2",
+      "$type": "spacing",
+      "$description": "A step in the spacing scale the current markup uses; not a layout rule."
+    }
+  },
+  "size": {
+    "container": {
+      "2xl": {
+        "$value": "672",
+        "$type": "sizing",
+        "$description": ""
+      },
+      "4xl": {
+        "$value": "896",
+        "$type": "sizing",
+        "$description": ""
+      },
+      "5xl": {
+        "$value": "1024",
+        "$type": "sizing",
+        "$description": ""
+      },
+      "7xl": {
+        "$value": "1280",
+        "$type": "sizing",
+        "$description": ""
+      }
+    },
+    "label": {
+      "min": {
+        "$value": "120",
+        "$type": "sizing",
+        "$description": ""
+      }
+    }
+  }
+}

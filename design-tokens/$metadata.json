@@ -1,0 +1,15 @@
+{
+  "tokenSetOrder": [
+    "color",
+    "type",
+    "spatial",
+    "effect"
+  ],
+  "activeThemes": [],
+  "activeSets": [
+    "color",
+    "type",
+    "spatial",
+    "effect"
+  ]
+}
