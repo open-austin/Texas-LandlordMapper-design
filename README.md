@@ -45,6 +45,19 @@ Not reproduced: the About, Data Sources and Contact pages, the open mobile menu,
 ## Design tokens
 `design-tokens/` holds an export of the Wireframes file's design tokens, one file per palette: `color`, `type`, `spatial` and `effect`. They capture the frontend's current visual values, and the `type` palette names the roles text plays across the site, from `type.display` to `type.caption`. They record the product's current visual language and will change as it does.
 
+### Refresh the token snapshot
+[penpot-export.json](penpot-export.json) is this project's export configuration. It selects `Wireframes.penpot`, its exact Penpot file ID, the four palettes and six JSON destinations. The reusable implementation lives in [Agent Hands](https://github.com/jcklpe/agent-hands), under `use-penpot/scripts/export_tokens.py`; it is not copied into this repository. Use an Agent Hands checkout containing that command, with Python 3.9+ on macOS or Linux. No account credentials or MCP setup are needed for archive extraction.
+
+After refreshing the native archive from the intended hosted file, run from this repository:
+
+```sh
+python3 /path/to/agent-hands/use-penpot/scripts/export_tokens.py --manifest penpot-export.json
+```
+
+Review the JSON report's output paths, actions and checksums. To apply a changed plan, use its `plan_sha256` in the same command with `--execute --expect-plan <plan_sha256>`. A stale plan fails before writing. Unchanged files retain their bytes. The exporter never deletes files; each changed file is replaced atomically, and a partial failure reports completed paths. Review any changes and refresh the PNG exports separately from the same Penpot state.
+
+This command extracts the local archive; it does not fetch the live file, prove freshness, or regenerate boards/images. The [implementation record](docs/active-spikes/penpot-token-export.md) tracks verification and publication status. Other projects can use their own manifest with the same tool; source IDs and output paths are data, not executable code.
+
 ## Getting started
 Clone with submodules:
 
@@ -52,7 +65,7 @@ Clone with submodules:
 git clone --recurse-submodules https://github.com/open-austin/Texas-LandlordMapper-design.git
 ```
 
-The workflow revision pinned by this checkout is not yet retrievable from the recorded remote. It must be published before this parent revision so recursive clones can succeed. Once it is available, `git submodule update --init --recursive` checks out the exact recorded revision and may leave a detached HEAD. See the [adoption record](docs/active-spikes/project-workflows-adoption.md) for the content review and remaining publication and client checks.
+The recorded workflow revision is published, and an anonymous recursive clone retrieved it successfully. `git submodule update --init --recursive` checks out that exact revision and may leave a detached HEAD. See the [adoption record](docs/active-spikes/project-workflows-adoption.md) for the content review, publication evidence and remaining client checks.
 
 ## License
 [GPL-3.0](LICENSE). The `project-workflows/` submodule is a separate work under its own AGPL-3.0-only license.

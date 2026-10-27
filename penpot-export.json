@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "source": {
+    "kind": "penpot-archive",
+    "path": "Wireframes.penpot",
+    "file_id": "10eaca95-0233-815b-8008-d84ed886c1ba"
+  },
+  "outputs": {
+    "sets": {
+      "color": "design-tokens/color.json",
+      "type": "design-tokens/type.json",
+      "spatial": "design-tokens/spatial.json",
+      "effect": "design-tokens/effect.json"
+    },
+    "metadata": "design-tokens/$metadata.json",
+    "themes": "design-tokens/$themes.json"
+  }
+}

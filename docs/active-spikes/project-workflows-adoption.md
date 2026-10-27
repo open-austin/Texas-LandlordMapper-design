@@ -24,3 +24,6 @@ Before the cleanup commits, the selected text and the two existing outgoing pare
 All token JSON files parse. The four palettes and empty theme list match the native archive; the active-set metadata contains the same four sets in a different order. Archive integrity checks pass, and image dimensions match README. No application build or automated project test suite exists here; visual fidelity to a running frontend and human design acceptance remain unverified.
 
 GitHub currently has neither the configured `project/texas-landlordmapper-design` branch nor the exact child revision recorded by the parent. Shared main being published does not satisfy that dependency. Parent publication is held until that child revision is available at the recorded remote; fresh recursive retrieval and client discovery remain pending.
+
+## Publication verification
+After explicit publication approval, the configured workflow project branch was pushed first and its exact pin was retrieved anonymously. The parent design snapshot was then pushed normally. A fresh anonymous `--recurse-submodules` clone retrieved both repositories at their expected revisions, and the parent and child worktrees were clean. GitHub reported no Actions workflows or commit checks for the snapshot. This resolves the earlier publication dependency; fresh-client discovery and design human QA remain separate.
