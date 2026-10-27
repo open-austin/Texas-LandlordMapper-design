@@ -147,3 +147,86 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# macOS
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+.nfs*
+
+# Editors and local agent state
+.claude/
+.codex/
+.cursor/
+.vscode/
+.idea/
+.history/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Office and design-tool lock files, partial downloads and temporary files
+~$*
+.~lock.*#
+*.crdownload
+*.part
+*.tmp
+/tmp/
+
+# Python caches and environments for helper scripts
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local secrets and private config, such as design-tool keys
+*.env
+*.env.*
+!*.env.example
+!*.env.example.*
+*.local
+*.local.*
+*.token
+*.token.*
+!*.token.example
+!*.token.example.*
+*token*.json
+!*token*.example.json
+*credentials*.json
+!*credentials*.example.json
+*client_secret*.json
+!*client_secret*.example.json
+*.local.json
+secrets/*
+!secrets/.gitignore
+!secrets/*.example
+!secrets/*.example.*
+**/secrets/*
+!**/secrets/.gitignore
+!**/secrets/*.example
+!**/secrets/*.example.*
+
+# Design tokens are project data, not credentials; keep the token patterns above from hiding them
+!/design-tokens/
+!/design-tokens/**/*.json
