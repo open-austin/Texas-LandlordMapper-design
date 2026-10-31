@@ -67,5 +67,7 @@ git clone --recurse-submodules https://github.com/open-austin/Texas-LandlordMapp
 
 The recorded workflow revision is published, and an anonymous recursive clone retrieved it successfully. `git submodule update --init --recursive` checks out that exact revision and may leave a detached HEAD. See the [adoption record](docs/active-spikes/project-workflows-adoption.md) for the content review, publication evidence and remaining client checks.
 
+For local collaborator setup, use the adopted [Get started guidance](project-workflows/README.md#get-started). Start contribution work with [Coordinate Project Contribution](project-workflows/coordinate-project-contribution/SKILL.md); each agent keeps its own spike and follows this project’s existing scope and review rules.
+
 ## License
 [GPL-3.0](LICENSE). The `project-workflows/` submodule is a separate work under its own AGPL-3.0-only license.
