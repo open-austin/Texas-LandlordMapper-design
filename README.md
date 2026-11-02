@@ -65,7 +65,7 @@ Clone with submodules:
 git clone --recurse-submodules https://github.com/open-austin/Texas-LandlordMapper-design.git
 ```
 
-Publication and anonymous recursive retrieval of the current workflow pin remain unverified; the policy migration records the current local update. `git submodule update --init --recursive` checks out that exact revision and may leave a detached HEAD. See the [adoption record](docs/active-spikes/project-workflows-adoption.md) for the content review, publication evidence and remaining client checks.
+The parent gitlink records the exact adopted workflow revision. `git submodule update --init --recursive` checks out that revision and may leave a detached HEAD. The [adoption record](docs/active-spikes/project-workflows-adoption.md) and [policy migration archive](docs/archive/agent-policy-migration.md) preserve prior verification and migration history. Fresh-client discovery remains unverified and is tracked in TODO.
 
 For local collaborator setup, use the adopted [Get started guidance](project-workflows/README.md#get-started). Start contribution work with [Coordinate Project Contribution](project-workflows/coordinate-project-contribution/SKILL.md); each agent keeps its own spike and follows this project’s existing scope and review rules.
 

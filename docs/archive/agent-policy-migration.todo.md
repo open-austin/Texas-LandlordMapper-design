@@ -1,16 +1,20 @@
 ---
-attention: live
+attention: historical
 reviewed: 2026-11-02
 ---
 # Agent policy migration — Texas LandlordMapper design work
+Historical record. Closed 2026-11-02. Stable slug: `agent-policy-migration`. Do not apply this spike as current instructions; use the [agent policy index](../agent-policies/policy.index.md), [AGENTS](../../AGENTS.md) and [README](../../README.md). Remaining ordinary-client QA is maintained in [TODO](../../TODO.md#ready-for-human-qa).
+
 Opened 2026-11-02. Stable slug: `agent-policy-migration`. [Concept and scope](agent-policy-migration.md).
 
 ## To Do
 
 ## Ready for Human QA
-- Aslan or the next fresh client: on an ordinary authorized documentation task, follow AGENTS to the adopted index, load PROTECT-PRIVACY before VALIDATE-CHECKPOINTS, and confirm the existing commit-approval boundary is observed. This owns fresh-client discovery/ordinary-use compliance separately from the completed migration; do not issue service writes solely for QA.
+- Aslan or the next fresh client: on an ordinary authorized documentation task, follow AGENTS to the adopted index, load PROTECT-PRIVACY before VALIDATE-CHECKPOINTS, and confirm the existing commit-approval boundary is observed. This owns fresh-client discovery/ordinary-use compliance separately from the completed migration; do not issue service writes solely for QA. Deferred at closure to the maintained [TODO QA item](../../TODO.md#ready-for-human-qa); no QA result is inferred from archival.
 
 ## Done
+- Remove the empty retained legacy policy scaffold and its selected configuration key, repair stale current references, and retain one project-owned policy directory. Completed during closure without changing policy bodies or project data.
+- Archive the completed migration pair with historical markers and closure date, repair inbound links and retain the concrete ordinary-client QA owner in TODO. Closure was explicitly requested by Aslan.
 - Obtain the exact provider object through an authorized route, run the deterministic updater preview, review actual overlaps/configuration/baselines, and apply only the authorized package delivery.
 - Prepare project-owned proposed kernel and needed operational candidates in the explicit agent-policy destination, preserving operative bodies and sanitized originals/history; align actual routing/locators without reclassifying human governance.
 - Present the exact adoption set and apply only an actual human decision covering it; otherwise retain proposals and record the precise pending gate rather than marking migration done.
@@ -25,4 +29,4 @@ Opened 2026-11-02. Stable slug: `agent-policy-migration`. [Concept and scope](ag
 The adopted VALIDATE-CHECKPOINTS policy retains the ask-before-committing boundary. This applies to updater-created child merges as well as the parent checkpoint; preview first and present exact messages/scope. No push. For a missing source object, dirty selected child/shared file, absent trustworthy asset baseline, semantic contradiction or unavailable required tool, report the exact action/target/reason and whether it is pending, denied or uncertain. Inspect uncertain outcomes before retrying. Continue independently authorized work without changing protected files or inventing approval. A future launch instruction is interpreted with these explicit gates; no push, issue/PR mutation, notification or external publication is authorized.
 
 ## Receiving status — 2026-11-02
-Completed the bounded local migration after Aslan explicitly approved D1, D2, C1 and C2. Eight policies are adopted and routed through the project-owned index. The deterministic child merge is `e7b2028f2e752b018a8feb0ca44f439e99d669f0`; the accompanying authorized parent checkpoint records that exact pin. Actual graph/selected closures, links, source/body preservation, index no-op and repeated updater apply pass. All fourteen design artifacts and the exporter manifest remain unchanged. All original task wording is retained under Done. There are no remaining migration execution/adoption/commit gates; ordinary-client QA stays separately owned above. The spike remains live, and archival/publication were not performed.
+Completed the bounded local migration after Aslan explicitly approved D1, D2, C1 and C2. Eight policies are adopted and routed through the project-owned index. The deterministic child merge is `e7b2028f2e752b018a8feb0ca44f439e99d669f0`; the accompanying authorized parent checkpoint records that exact pin. Actual graph/selected closures, links, source/body preservation, index no-op and repeated updater apply pass. All fourteen design artifacts and the exporter manifest remain unchanged. All original task wording is retained under Done. There are no remaining migration execution/adoption/commit gates; ordinary-client QA stays separately owned above. The migration is closed after the single-directory cleanup; the QA item above is deferred to TODO. Publication is separately authorized by the closure request and verified after delivery.

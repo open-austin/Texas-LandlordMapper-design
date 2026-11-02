@@ -1,14 +1,16 @@
 ---
-attention: live
+attention: historical
 reviewed: 2026-11-02
 ---
 # Agent policy migration — Texas LandlordMapper design
-Opened 2026-11-02. Stable slug: `agent-policy-migration`. [Tasks](agent-policy-migration.todo.md). The bounded receiving migration is implemented and verified after explicit adoption, routing and local checkpoint approval. The spike remains live for separate ordinary-client QA; archival is not part of this result.
+Historical record. Closed 2026-11-02. Stable slug: `agent-policy-migration`. Do not apply this spike as current instructions; use the [agent policy index](../agent-policies/policy.index.md), [AGENTS](../../AGENTS.md) and [README](../../README.md). Remaining ordinary-client QA is maintained in [TODO](../../TODO.md#ready-for-human-qa).
+
+Opened 2026-11-02. Stable slug: `agent-policy-migration`. [Tasks](agent-policy-migration.todo.md). The bounded receiving migration is implemented and verified after explicit adoption, routing and local checkpoint approval. The migration is closed after the single-directory cleanup; ordinary-client QA is deferred to its maintained TODO owner.
 
 ## Current receiving result
 Aslan explicitly approved the presented D1 adoption, D2 routing, C1 child merge and C2 parent checkpoint on 2026-11-02. All eight project-owned policies are adopted in `docs/agent-policies/` with YAML, the reviewed meaningful IDs, kernel/operational types, underscore-prefixed kernel filenames and the actual decision authority. No proposed amendments remain. The original five operational bodies are preserved verbatim; there were no legacy policy identities to retire.
 
-The deterministic updater merged provider `79dddf9742c282d184c65d5c5ef87a142900897f` into the selected project branch as child commit `e7b2028f2e752b018a8feb0ca44f439e99d669f0`, retaining both parents and every previous configuration value. The approved parent checkpoint records that exact child gitlink together with policy copies, routing and this evidence. The separate legacy/governance locator remains `docs/policies`; the actual agent-policy locator is `docs/agent-policies`. No copied assets or baselines changed.
+The deterministic updater merged provider `79dddf9742c282d184c65d5c5ef87a142900897f` into the selected project branch as child commit `e7b2028f2e752b018a8feb0ca44f439e99d669f0`, retaining both parents and every previous configuration value. The approved parent checkpoint records that exact child gitlink together with policy copies, routing and this evidence. The final configuration selects only `docs/agent-policies`; the empty legacy scaffold and its locator were removed during closure. No copied assets or baselines changed.
 
 The actual adopted graph/index and selected closures pass; actual index regeneration and a second updater apply are no-ops. Twenty-one local Markdown documents, five selected skill headers and retained settings were checked. All fourteen design artifacts and the exporter manifest are byte-for-byte unchanged; other protected files and the existing CLAUDE symlink are preserved. No application, project data, live design file, service permission or external system was changed. No push occurred. Publication/remote retrieval and fresh-client ordinary-use acceptance remain unverified, separately owned below, and are not blockers to the completed local migration.
 
@@ -20,7 +22,7 @@ No policy files were found in docs/policies or docs/agent-policies. AGENTS/READM
 Preparation policy inventory:
 - None found in the configured/current policy folders; inspect AGENTS and durable docs before concluding there are no standing instructions.
 
-Related owners: [project workflows adoption](project-workflows-adoption.md). Those completed/adoption/design scopes retain their own remaining QA and closure decisions; this new receiving phase does not reopen or silently close them. Central coordination lives in Project Workflows, `docs/active-spikes/agent-policy-rollout.md` (prepared locally, not published). [Project instructions](../../AGENTS.md) remain authoritative.
+Related owners: [project workflows adoption](../active-spikes/project-workflows-adoption.md). Those completed/adoption/design scopes retain their own remaining QA and closure decisions; this new receiving phase does not reopen or silently close them. Central coordination lives in Project Workflows, `docs/active-spikes/agent-policy-rollout.md` (prepared locally, not published). [Project instructions](../../AGENTS.md) remain authoritative.
 
 ## Project boundaries
 Do not edit the hosted design file, refresh Wireframes.penpot/exports/design-tokens, modify penpot-export.json or change application repositories. Keep the existing Agent Hands exporter selection; structural policy checks do not certify visual fidelity.
@@ -114,3 +116,18 @@ The C2 parent checkpoint uses the approved message `policies: adopt project-owne
 
 ### Remaining ordinary-use QA owner
 Aslan or the next fresh client opening this repository should use the new AGENTS/index routing during an ordinary authorized documentation task, resolve VALIDATE-CHECKPOINTS to PROTECT-PRIVACY then VALIDATE-CHECKPOINTS, and confirm the actual commit-approval boundary is observed. This next ordinary-use check owns fresh-client discovery and observed compliance; structural checks and this guided migration do not prove either. Do not perform a service write solely for QA. Archival needs its normal separate authorization; no hidden migration execution remains.
+
+## Closure — 2026-11-02
+Aslan explicitly requested removal of the retained empty legacy policy directory and stale references, archival if the bounded migration was complete, a clean committed tree, and publication. The legacy directory contained only its empty tracked placeholder; no policy, identity or governance content was removed. The project now uses one policy destination, `docs/agent-policies`, and its selected workflow configuration has no legacy `documents.policies` key. AGENTS and the policy index no longer assign a separate governance role to an empty directory. Shared package examples for other legacy consumers remain distribution documentation, not this project's configuration.
+
+All migration implementation and adoption work is complete. The maintained [agent policy index](../agent-policies/policy.index.md), [project instructions](../../AGENTS.md) and [README](../../README.md) own current definitions, routing and setup. This pair preserves the investigation, exact adoption decision, body mapping, checks and the later single-directory correction. No successor implementation spike is needed. The outstanding fresh-client ordinary-use check is explicitly deferred to the maintained [TODO QA item](../../TODO.md#ready-for-human-qa); it is not reported as passed and does not keep migration execution open.
+
+The archive retains the original task wording and detailed evidence. Both files are marked historical with the actual closure date. Incoming references are repaired, and TODO records the completed migration separately from remaining client QA. Current policy bodies, statuses, IDs, prerequisites and authority metadata are unchanged by this cleanup. Native design files, exported images/tokens, the exporter manifest, unrelated notes and the original Git history are preserved. Publication must verify the exact workflow dependency before the parent branch and fresh recursive retrieval afterward; publication is authorized by the current request, not inferred from the earlier local-only migration approval.
+
+
+### Closure verification receipt
+The project-branch configuration cleanup is committed as `e611aeca1b3ce7f708b1e4c5864807d6b4103495` (`workflows: remove the legacy policy locator`, `Spike: agent-policy-migration`). It removes only the obsolete locator; all other parsed settings are unchanged. The final parent checkpoint records this new exact child revision, building on the original migration checkpoint `1829d02f85835af72b9ea629dd381cf2557ba904`.
+
+Post-cleanup checks confirm the old directory is absent, the selected legacy key is absent, eight adopted policy files are byte-for-byte unchanged, and the original Done items are preserved. Six current/archived Markdown documents pass local link/anchor checks. The complete policy graph passes; index regeneration and an actual repeated updater apply are unchanged with the new child revision. All fourteen design artifacts and the exporter manifest match the closure baseline; thirty-three other original files, including the adopted policy bodies, are preserved. Current AGENTS/README/TODO/index/configuration contain no active references to the removed directory or old migration-spike paths. Historical preparation references remain in this clearly marked archive as evidence.
+
+Before publication, exact remote heads were read for the parent and selected workflow branch. The outgoing parent history contains three earlier local commits; the workflow history contains twelve through the cleanup checkpoint. A bounded private-path/credential-pattern review inspected their commit messages and 151 changed file versions, and the current closure files were separately reviewed. This is a scoped publication review, not a guarantee about all repository history. Publication is to use normal fast-forward updates with fresh head checks, dependency first, followed by exact remote readback and a fresh anonymous recursive clone. No application changes, project-data edits or history rewrites are part of this closure.

@@ -1,7 +1,7 @@
 # Agent policies
 This project-owned index records agent obligations and their status. Only explicitly adopted policies are operative. The eight policies below were explicitly adopted by Aslan in the active migration chat on 2026-11-02. [Project instructions](../../AGENTS.md) route agents here; package candidates remain separate.
 
-The three kernel policies are frozen project-owned copies from Project Workflows `79dddf9742c282d184c65d5c5ef87a142900897f`. Five operational policies preserve the existing AGENTS obligations. [Migration evidence](../active-spikes/agent-policy-migration.md#receiving-migration-evidence) records their source mapping and review. Human/design governance retains its separate `docs/policies/` location; no human governance record is reclassified here.
+The three kernel policies are frozen project-owned copies from Project Workflows `79dddf9742c282d184c65d5c5ef87a142900897f`. Five operational policies preserve the existing AGENTS obligations. [Migration evidence](../archive/agent-policy-migration.md#receiving-migration-evidence) records their source mapping and review.
 
 <!-- agent-policies:start -->
 | ID | Policy | Type | Scope | Status | Revised |
