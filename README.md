@@ -11,7 +11,7 @@ Design files for Landlord Mapper, an [Open Austin](https://www.open-austin.org/)
 - `Wireframes.penpot` is a native export of that file, for archiving or importing into another Penpot instance. Git history records when it was exported.
 - `exports/` holds PNG exports of boards, for reading without Penpot.
 - `design-tokens/` holds the file's design tokens, one JSON file per palette.
-- [TODO.md](TODO.md) indexes active work; `docs/` holds policies, spike notes, scratch notes and archives.
+- [TODO.md](TODO.md) indexes active work; the [agent policy index](docs/agent-policies/policy.index.md) records agent obligations and status, and `docs/` also holds spike notes, scratch notes and archives.
 - `project-workflows/` is a Git submodule with the shared procedures this project uses to organize its documentation and work. [AGENTS.md](AGENTS.md) explains how it is used here.
 
 ## Current-state boards
@@ -65,7 +65,7 @@ Clone with submodules:
 git clone --recurse-submodules https://github.com/open-austin/Texas-LandlordMapper-design.git
 ```
 
-The recorded workflow revision is published, and an anonymous recursive clone retrieved it successfully. `git submodule update --init --recursive` checks out that exact revision and may leave a detached HEAD. See the [adoption record](docs/active-spikes/project-workflows-adoption.md) for the content review, publication evidence and remaining client checks.
+Publication and anonymous recursive retrieval of the current workflow pin remain unverified; the policy migration records the current local update. `git submodule update --init --recursive` checks out that exact revision and may leave a detached HEAD. See the [adoption record](docs/active-spikes/project-workflows-adoption.md) for the content review, publication evidence and remaining client checks.
 
 For local collaborator setup, use the adopted [Get started guidance](project-workflows/README.md#get-started). Start contribution work with [Coordinate Project Contribution](project-workflows/coordinate-project-contribution/SKILL.md); each agent keeps its own spike and follows this project’s existing scope and review rules.
 

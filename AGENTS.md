@@ -1,5 +1,5 @@
 # Agent Instructions
-This repository holds design files for Landlord Mapper, an Open Austin project. It contains no application code: the data pipeline lives in [open-austin/landlord-mapper](https://github.com/open-austin/landlord-mapper) and the web frontend in [open-austin/landlord-mapper-frontend](https://github.com/open-austin/landlord-mapper-frontend). Work here does not change those repositories unless the user asks for that separately.
+This repository holds design files for Landlord Mapper, an Open Austin project. It contains no application code: the data pipeline lives in [open-austin/landlord-mapper](https://github.com/open-austin/landlord-mapper) and the web frontend in [open-austin/landlord-mapper-frontend](https://github.com/open-austin/landlord-mapper-frontend). Read [BOUND-DESIGN](docs/agent-policies/BOUND-DESIGN-keep-work-within-design.md) for the agent scope boundary.
 
 ## Workflow source
 This project adopts `project-workflows/` as a Git submodule. Read [workflow.toml](project-workflows/workflow.toml) for configured document locations, then use its `<skill-name>/SKILL.md` procedures. The project-specific copy is authoritative over global seeds, and these instructions override seed defaults. General skills and external-service tooling are optional unless explicitly adopted.
@@ -8,21 +8,24 @@ The submodule's project branch is `project/texas-landlordmapper-design`, separat
 
 Use [Coordinate Project Contribution](project-workflows/coordinate-project-contribution/SKILL.md) to start contribution and review work under this project’s existing human direction. Each agent keeps its own spike; a branch may carry several spikes/issues and later reviews. Existing privacy, validation and publication rules remain authoritative.
 
-## Documentation
-README explains the project and how to start. TODO indexes active work. Current policies in `docs/policies/` define standing guidance; spike pairs in `docs/active-spikes/` hold scoped reasoning and work state; `docs/scratch/` is provisional; `docs/archive/` preserves history. Actual project documents live in this repository, outside the workflow submodule.
+## Agent policy routing
+Read the project-owned [agent policy index](docs/agent-policies/policy.index.md), select the applicable adopted obligations and load their complete prerequisite closure once, prerequisites before dependents. The adopted kernel governs policy decisions, identity and dependency loading; bundled candidates remain proposed. Use the selected collection's [Create](project-workflows/create-agent-policy/SKILL.md), [Edit](project-workflows/edit-agent-policy/SKILL.md), [Review](project-workflows/review-agent-policies/SKILL.md), [Adopt](project-workflows/adopt-agent-policies/SKILL.md) and [Retire](project-workflows/retire-agent-policy/SKILL.md) procedures for policy work. Package updates supply candidates without adopting or replacing these project-owned policies.
 
-The hosted Penpot file linked from README is the editable source. `Wireframes.penpot` at the root is its native export, `exports/` holds PNG exports of its boards, and `design-tokens/` holds its token export, one file per palette. The project-owned `penpot-export.json` selects the native archive, file ID and token output paths for Agent Hands' reusable offline exporter; README documents preview and guarded execution. Refresh these together from the same state of the hosted file, and let Git history carry dates rather than dated file or folder names. Name semantic tokens by their role in the hierarchy, not by how they currently look.
+## Documentation
+README explains the project and how to start. TODO indexes active work. The [agent policy index](docs/agent-policies/policy.index.md) records policy scope and status; `docs/policies/` retains its separate human/design governance location; spike pairs in `docs/active-spikes/` hold scoped reasoning and work state; `docs/scratch/` is provisional; `docs/archive/` preserves history. Actual project documents live in this repository, outside the workflow submodule.
+
+Read [MAINTAIN-ARTIFACTS](docs/agent-policies/MAINTAIN-ARTIFACTS-preserve-source-and-provenance.md) for hosted-file, export and token-naming obligations. README owns the export procedure, and `penpot-export.json` owns its project-specific selection.
 
 ## Design artifacts
-State how each artifact was produced, such as derived from source code at a named commit or captured from the deployed site, and do not claim fidelity beyond that. Mark example data visibly as examples. Public artifacts must not contain real tenant, owner or other personal records unless the user confirms they are already public and appropriate to include.
+Read [MAINTAIN-ARTIFACTS](docs/agent-policies/MAINTAIN-ARTIFACTS-preserve-source-and-provenance.md) for artifact provenance, example-data labeling and public-record boundaries.
 
 ## Privacy
-This is a public repository. Never commit credentials, tokens, design-tool keys, private notes or personal machine paths. Keep local secrets in ignored files and run `git check-ignore -q <path>` before adding new files.
+Read [PROTECT-PRIVACY](docs/agent-policies/PROTECT-PRIVACY-keep-public-content-safe.md) before handling files or public content.
 
 ## Validation and Git
-Validate token exports with the Agent Hands preview command documented in README; this repository has no application build or automated test suite. A commit policy has not been set: ask before committing, commit by explicit pathspec, never use `git add -f`, and never add a `Co-Authored-By:` trailer. Agents never push; publishing and other remote actions follow the user's authorization.
+Read [VALIDATE-CHECKPOINTS](docs/agent-policies/VALIDATE-CHECKPOINTS-validate-and-request-commits.md) for validation, commit approval and publication boundaries. Agents must still ask before committing, including updater-created child merge commits.
 
 ## Markdown style
-Keep each prose paragraph or comment paragraph on one line and let editors wrap it. Avoid reflow-only edits. Preserve meaningful line breaks, existing local conventions, and explicit formatter requirements.
+Read [PRESERVE-PROSE](docs/agent-policies/PRESERVE-PROSE-retain-wording-and-note-scope.md) for prose edits, small subject notes and preservation of existing notes.
 
-The recorded workflow pin is published and anonymous recursive retrieval has been verified. All eight procedures live at the collection root. Use capture-for-later for new small subject notes; preserve existing notes and deferred work without bulk migration. The [adoption record](docs/active-spikes/project-workflows-adoption.md) records the content review, publication evidence and remaining client checks.
+The procedures live at the collection root. Publication and anonymous recursive retrieval of the current workflow pin remain unverified. The [adoption record](docs/active-spikes/project-workflows-adoption.md) preserves earlier publication evidence and remaining client checks; the [policy migration](docs/active-spikes/agent-policy-migration.md) records the current local update.
